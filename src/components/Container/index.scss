@@ -1,0 +1,25 @@
+.Container {
+  @include max-width(300px);
+  @include space(0, 24px);
+  border-radius: 12px;
+
+  @include xs {
+    color: $colorRed;
+  }
+
+  @include sm {
+    color: $colorDarkOlive;
+  }
+
+  @include md {
+    color: $colorOrange;
+  }
+
+  @include lg {
+    color: $colorOlive;
+  }
+
+  @include xl {
+    color: $colorGold;
+  }
+}

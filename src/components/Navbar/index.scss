@@ -1,0 +1,24 @@
+.Navbar {
+  @include reset();
+  @include navbar();
+
+  @include xs {
+    background-color: $colorTeal;
+  }
+
+  @include sm {
+    background-color: $colorLightBlue;
+  }
+
+  @include md {
+    background-color: $colorDarkBlue;
+  }
+
+  @include lg {
+    background-color: $colorLightOrange;
+  }
+
+  @include xl {
+    background-color: $colorRed;
+  }
+}
